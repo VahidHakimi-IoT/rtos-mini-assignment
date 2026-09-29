@@ -137,7 +137,7 @@ Observation: the LED stayed on permanently and the Serial Monitor showed no new 
 Explanation: Task A stayed Running and never entered Blocked. Task B stayed Ready but was never selected because a higher-priority task was always available.
 
 The starvation experiments were temporary. All vTaskDelay() calls were restored in the submitted code. Final configuration: ESP32-S3-DevKitC-1 v1.1, RGB LED on GPIO 38, Task A and Task B at priority 1, both pinned to core 1
-
+ AI useage for understanding the code and arranging readme file. 
  
 
 
