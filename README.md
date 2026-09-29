@@ -11,7 +11,7 @@ Two FreeRTOS tasks created with `xTaskCreatePinnedToCore()` on core 1:
 Task A: prints "Task A alive" every 1000 ms using `vTaskDelay(pdMS_TO_TICKS(1000))`.
 Task B: blinks the RGB LED (red, brightness 50) with 500 ms ON and 500 ms OFF using `vTaskDelay(pdMS_TO_TICKS(500))` for both waits.
 Baseline priorities: Task A = 1, Task B = 1.
-![Serial Monitor](images/serial-monitor.png)
+(images/serial-monitor.png)
 Observation: "Task A alive" appeared repeatedly, about once per second, and the LED blinked periodically. [add your stopwatch measurement if you took one]
 3. Prediction and observation table
 > Predictions were written before testing and were not changed afterwards. [Rewrite the predictions below in your own words.]
